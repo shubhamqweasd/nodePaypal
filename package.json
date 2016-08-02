@@ -1,0 +1,26 @@
+{
+  "name": "nodePaypal",
+  "version": "0.0.0",
+  "description": "Paypal Integration with node.Js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shubhamqweasd/nodePaypal.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/shubhamqweasd/nodePaypal/issues"
+  },
+  "dependencies": {
+    "express": "~4.14.0",
+    "path": "~0.12.7",
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "express-session": "^1.14.0",
+    "paypal-rest-sdk": "~1.6.9"
+  }
+}
